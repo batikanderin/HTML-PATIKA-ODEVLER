@@ -1,0 +1,23 @@
+/************ Bu sekilde yorum satiri yapariz Layout **************/
+
+/* Class icin -> .text-red {} koyariz*/
+/* id bilgisi icin -> #id-name {} */
+.text-red {
+    color: red;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-24 {
+    font-size: 24px;    
+}
+
+.fs-32 {
+    font-size: 32px;    
+}
+
+#batikan {
+    color: pink;
+}
