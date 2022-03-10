@@ -2,6 +2,19 @@
 
 /* Class icin -> .text-red {} koyariz*/
 /* id bilgisi icin -> #id-name {} */
+
+/* CSS selectors */
+/*
+.color-blue.fw-normal {
+    color: blue;
+    font-weight: normal;
+}
+
+
+li:nth-child(4) {
+    color: red;
+}
+
 .text-red {
     color: red;
 }
@@ -20,4 +33,67 @@
 
 #batikan {
     color: pink;
+}*/
+
+
+
+
+/*.bg-red {
+    background-color: red;
 }
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.clear {
+    clear: both;
+}*/
+
+.container {
+    width: 1000px;    
+    margin: 50px auto 0;
+}
+
+.left-bar {
+    width: 200px;   
+    float: left;
+    
+    
+}
+
+.right-bar {
+    width: 800px;    
+    float: left;
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    background-color: white;
+    border-radius: 10px;
+    
+   
+}
+
+
+.gradient {    
+    background: linear-gradient(90deg,rgba(45,156,219,.6),rgba(155,81,224,.6));
+}
+
+.font-bold {
+    
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.btn {        
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.shadow-lg{
+    box-shadow: var(--tw-ring-offset-shadow,0 0 transparent),var(--tw-ring-shadow,0 0 transparent),var(--tw-shadow);}
